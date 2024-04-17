@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGR16</title>
+    <script src="https://kit.fontawesome.com/27d41ef471.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./home.css">
+    <script defer src="./home.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <img src="./assets/logo.png" alt="logo" width="80px" height="40px">
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="">HOME</a></li>
+            <li><a href="">PRODUCT</a></li>
+            <li><a href="">TRAINING</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><button type="button">BOOK NOW</button></li>
+        </ul>
+
+
+    </nav>
+
+    <!-- SECTION-1 -->
+    <section id="sec-1">
+        <canvas id="img-seq"></canvas>
+        <div id="outer-layer">
+            <div id="inner-layer">
+                <div id="buttons">
+                    <button>Learn more &nbsp; <i class="fa-solid fa-arrow-trend-up fa-lg"></i></button>
+                    <button>Watch video &nbsp; <i class="fa-regular fa-circle-play fa-lg"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-2 -->
+    <section id="sec-2">
+        <div class="bg-layer">
+            <div class="text-container">
+                <div>
+                    <h3 class="one">About</h3>
+                    <h3 class="two">xagrotor tek</h3>
+                </div>
+                <p>We specialize in manufacturing advanced agricultural drones, providing ground control systems (GCS)
+                    services, and
+                    developing enterprising flight controllers. Our innovative technology empowers farmers to increase
+                    yields and promote
+                    sustainable agriculture. At Xagrotor Tek, we are dedicated to revolutionizing farming practices
+                    through innovation and
+                    technology. Join us in shaping the future of agriculture for a more efficient and sustainable world.
+                </p>
+            </div>
+            <div class="carousel-container">
+                <div class="mySlides animate">
+                    <img src="./assets/about1.jpg" alt="slide" />
+                </div>
+
+                <div class="mySlides animate">
+                    <img src="./assets/about2.jpg" alt="slide" />
+                </div>
+
+                <div class="mySlides animate">
+                    <img src="./assets/about3.jpg" alt="slide" />
+                </div>
+
+                <a class="prev" onclick="prevSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+
+                <!-- The dots/circles -->
+                <div class="dots-container">
+                    <span class="dots" onclick="currentSlide(1)"></span>
+                    <span class="dots" onclick="currentSlide(2)"></span>
+                    <span class="dots" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-3 -->
+
+    <section id="sec-3">
+        <h3>our scope <span>products</span></h3>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide--one">
+                    <div class="bg-layer">
+                        <img src="./assets/drone.png" alt="" width="100%" height="auto">
+                    </div>
+                    <div class="text-content">
+                        <h3>AGR 16</h3>
+                        <p>Your ultimate agri-drone solution, revolutionizing precision farming. Elevate your
+                            agricultural
+                            practices
+                            with
+                            unparalleled efficiency and data-driven insights.</p>
+                        <button type="button">Book now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide--two">
+                    <div class="bg-layer">
+                        <img src="./assets/drone.png" alt="" width="100%" height="auto">
+                    </div>
+                    <div class="text-content">
+                        <h3>AGR 16</h3>
+                        <p>Your ultimate agri-drone solution, revolutionizing precision farming. Elevate your
+                            agricultural
+                            practices
+                            with
+                            unparalleled efficiency and data-driven insights.</p>
+                        <button type="button">Book now</button>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide--three">
+                    <div class="bg-layer">
+                        <img src="./assets/drone.png" alt="" width="80%" height="auto">
+                    </div>
+                    <div class="text-content">
+                        <h3>AGR 16</h3>
+                        <p>Your ultimate agri-drone solution, revolutionizing precision farming. Elevate your
+                            agricultural
+                            practices
+                            with
+                            unparalleled efficiency and data-driven insights.</p>
+                        <button type="button">Book now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- SECTION-4 -->
+    <section id="sec-4">
+        <div class="header">
+            <h3 class="one">why choose</h3>
+            <h3 class="two">xagrotor tek</h3>
+        </div>
+        <div>
+            <details>
+                <summary>Comprehensive Solutions</summary>
+                <p>We offer a complete suite of agricultural drone solutions, including drones, flight controllers, and
+                    GCS apps, ensuring
+                    seamless integration and maximum efficiency.</p>
+            </details>
+            <details>
+                <summary>Precision Agriculture</summary>
+                <p>With our drones and associated technologies, farmers can adopt precision agriculture practices,
+                    reducing costs,
+                    increasing yields, and minimizing environmental impact.</p>
+            </details>
+            <details>
+                <summary>Ease of Use</summary>
+                <p>Our products are designed with farmers in mind, featuring intuitive interfaces and straightforward
+                    operation, making
+                    drone technology accessible to all.</p>
+            </details>
+            <details>
+                <summary>Dedicated Support</summary>
+                <p>At Xagrotor Tek, we're committed to providing exceptional customer support every step of the way.
+                    From installation and
+                    training to ongoing maintenance, our team is here to ensure your success.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- SECTION-5 -->
+    <section id="sec-5">
+        <img id="graphic-1" src="./assets/icon.png" alt="icon" width="100px" height="75px" z-index="1">
+        <div class="main-textimonial">
+            <h3>what they say <span>about us</span></h3>
+            <div class="textimonial">
+                <div class="textimonial-container">
+                    <div class="comments effect">
+                        <p>Sapien pretium ut massa aliquet tellus pellentesque elementum. Pellentesque pellentesque in
+                            curabitur turpis sed dolor
+                            adipiscing mi. Gravida consequat ornare at dui gravida ut tortor. Nisi turpis in sed gravida
+                            nec vitae. Arcu, ut et
+                            integer bibendum duis lacus malesuada. In mi elementum mauris orci dictum sollicitudin odio
+                            duis. Vulputate egestas
+                            commodo nisl id mauris. Magnis elit ultricies aliquam adipiscing fames sed.</p>
+                        <h2>- Roberto Carlos</h2>
+                    </div>
+
+                    <div class="comments effect">
+                        <p>Sapien pretium ut massa aliquet tellus pellentesque elementum. Pellentesque pellentesque in
+                            curabitur turpis sed dolor
+                            adipiscing mi. Gravida consequat ornare at dui gravida ut tortor. Nisi turpis in sed gravida
+                            nec vitae. Arcu, ut et
+                            integer bibendum duis lacus malesuada. In mi elementum mauris orci dictum sollicitudin odio
+                            duis. Vulputate egestas
+                            commodo nisl id mauris. Magnis elit ultricies aliquam adipiscing fames sed.</p>
+                        <h2>- Roberto Carlos</h2>
+                    </div>
+
+                    <div class="comments effect">
+                        <P>Sapien pretium ut massa aliquet tellus pellentesque elementum. Pellentesque pellentesque in
+                            curabitur turpis sed dolor
+                            adipiscing mi. Gravida consequat ornare at dui gravida ut tortor. Nisi turpis in sed gravida
+                            nec vitae. Arcu, ut et
+                            integer bibendum duis lacus malesuada. In mi elementum mauris orci dictum sollicitudin odio
+                            duis. Vulputate egestas
+                            commodo nisl id mauris. Magnis elit ultricies aliquam adipiscing fames sed.</P>
+                        <h2>- Roberto Carlos</h2>
+                    </div>
+
+                    <div class="comments effect">
+                        <P>Sapien pretium ut massa aliquet tellus pellentesque elementum. Pellentesque pellentesque in
+                            curabitur turpis sed dolor
+                            adipiscing mi. Gravida consequat ornare at dui gravida ut tortor. Nisi turpis in sed gravida
+                            nec vitae. Arcu, ut et
+                            integer bibendum duis lacus malesuada. In mi elementum mauris orci dictum sollicitudin odio
+                            duis. Vulputate egestas
+                            commodo nisl id mauris. Magnis elit ultricies aliquam adipiscing fames sed.</P>
+                        <h2>- Roberto Carlos</h2>
+                    </div>
+
+                    <div class="comments effect">
+                        <P>Sapien pretium ut massa aliquet tellus pellentesque elementum. Pellentesque pellentesque in
+                            curabitur turpis sed dolor
+                            adipiscing mi. Gravida consequat ornare at dui gravida ut tortor. Nisi turpis in sed gravida
+                            nec vitae. Arcu, ut et
+                            integer bibendum duis lacus malesuada. In mi elementum mauris orci dictum sollicitudin odio
+                            duis. Vulputate egestas
+                            commodo nisl id mauris. Magnis elit ultricies aliquam adipiscing fames sed.</P>
+                        <h2>- Roberto Carlos</h2>
+                    </div>
+                </div>
+
+                <div class="profiles">
+                    <div class="profile" onclick="currentSlide(1)">
+                        <img src="./assets/agri-land.jpg" alt="">
+                    </div>
+                    <div class="profile" onclick="currentSlide(2)">
+                        <img src="./assets/agri-land.jpg" alt="">
+                    </div>
+                    <div class="profile" onclick="currentSlide(3)">
+                        <img src="./assets/agri-land.jpg" alt="">
+                    </div>
+                    <div class="profile" onclick="currentSlide(4)">
+                        <img src="./assets/agri-land.jpg" alt="">
+                    </div>
+                    <div class="profile" onclick="currentSlide(5)">
+                        <img src="./assets/agri-land.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img id="graphic-2" src="./assets/GRAPHIC.png" alt="graphic">
+    </section>
+
+    <!-- SECTION-6 -->
+    <section id="sec-6">
+        <div class="left-content">
+            <h3>Get In <span>Touch!</span></h3>
+            <p>Need Any Help? Send us a message using the form below and we'll get back to you promptly!</p>
+        </div>
+        <div class="right-content">
+            <form action="#">
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name">
+                </div>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email">
+                </div>
+                <div>
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="Phone">
+                </div>
+                <div>
+                    <label for="message">Type Message</label>
+                    <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="foot-1">
+            <img src="./assets/logo.png" alt="logo" width="150px" height="auto">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCT</a></li>
+                <li><a href="">TRAINING</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+            <div class="social">
+                <span><i class="fa-brands fa-instagram fa-xl"></i></span>
+                <span><i class="fa-brands fa-x-twitter fa-xl"></i></span>
+                <span><i class="fa-brands fa-youtube fa-xl"></i></span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
